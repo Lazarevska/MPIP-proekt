@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Skopje\'s hidden jewels</string>
+
+    <string name="title_activity_welcome">Skopje\'s hidden jewels</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">291265684677175</string>
+</resources>

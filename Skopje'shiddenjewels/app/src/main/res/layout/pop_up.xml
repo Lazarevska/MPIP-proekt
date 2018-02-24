@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_up"
+    android:layout_width="30dp"
+    android:layout_height="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_rounded_corners">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Android is invented by ?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioScreenMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/radioTitle"
+            android:buttonTint="@android:color/black"
+            android:text="Apple" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/radioTitle"
+            android:buttonTint="@android:color/black"
+            android:text="Google" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/radioTitle"
+            android:buttonTint="@android:color/black"
+            android:text="Microsoft" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
